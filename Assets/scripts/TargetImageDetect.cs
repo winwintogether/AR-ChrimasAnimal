@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TargetImageDetect: MonoBehaviour, ITrackableEventHandler {
 
-	public GameObject mMainCamera;
-	public GameObject mImages;
+	
 	public GameObject mLogo;
 	public float mDuration;
 
