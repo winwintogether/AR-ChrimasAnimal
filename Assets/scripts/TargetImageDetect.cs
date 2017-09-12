@@ -7,8 +7,7 @@ using UnityEngine.SceneManagement;
 public class TargetImageDetect: MonoBehaviour, ITrackableEventHandler {
 
 	
-	public GameObject mLogo;
-	public float mDuration;
+	
 
 	private TrackableBehaviour mTrackableBehaviour;
 	bool tracked = false;
