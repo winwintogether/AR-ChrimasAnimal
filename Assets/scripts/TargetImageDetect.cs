@@ -21,9 +21,7 @@ public class TargetImageDetect: MonoBehaviour, ITrackableEventHandler {
 		    newStatus == TrackableBehaviour.Status.TRACKED ||
 		    newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED) {
 			tracked = true;
-		} else {
-			tracked = false;
-		}
+		} 
 
 	}
 
