@@ -9,10 +9,7 @@ public class TargetImageDetect: MonoBehaviour, ITrackableEventHandler {
 	
 	
 
-	private TrackableBehaviour mTrackableBehaviour;
-	bool tracked = false;
-
-
+	
 	void Start () {
 		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
 		if (mTrackableBehaviour) {
