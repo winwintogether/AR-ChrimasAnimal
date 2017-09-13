@@ -12,10 +12,7 @@ public class TargetImageDetect: MonoBehaviour, ITrackableEventHandler {
 	
 	void Start () {
 		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
-		if (mTrackableBehaviour) {
-			mTrackableBehaviour.RegisterTrackableEventHandler (this);
-		}
-		mDuration = 0;
+		
 	}
 
 	public void OnTrackableStateChanged(TrackableBehaviour.Status previousStatus,TrackableBehaviour.Status newStatus)
